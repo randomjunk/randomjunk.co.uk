@@ -1,0 +1,16 @@
+{
+  "name": "randomjunk.co.uk",
+  "homepage": "http://www.randomjunk.co.uk",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/randomjunk/randomjunk.co.uk.git"
+  },
+  "dependencies": {
+    "babelify": "^6.3.0",
+    "browserify": "^11.2.0",
+    "gulp": "^3.9.0",
+    "gulp-less": "^3.0.3",
+    "tween.js": "^15.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
