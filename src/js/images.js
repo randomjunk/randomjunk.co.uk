@@ -1,8 +1,4 @@
 
-export const images = {};
-
-const img = (name) => document.getElementById(name);
-
 class Image {
   constructor(name, w, h) {
     this.name = name;
@@ -24,9 +20,9 @@ class Image {
   }
 }
 
-export function initImages() {
+export const images = {};
 
+export function initImages() {
   images.landscape = new Image('landscape', 1280, 768);
   images.sheep = new Image('sheep', 100, 75);
-
 }

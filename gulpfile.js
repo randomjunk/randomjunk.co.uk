@@ -8,7 +8,7 @@ var del = require('del');
 var target = './target/www/';
 
 gulp.task('browserify', function() {
-  return browserify('./src/js/sheep.js')
+  return browserify('./src/js/main.js')
     .transform(babelify.configure({nonStandard: true}))
     .bundle()
     .pipe(source('site.js'))
